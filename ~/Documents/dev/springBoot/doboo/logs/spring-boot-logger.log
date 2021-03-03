@@ -1,0 +1,141 @@
+2021-01-20 13:21:30,120 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2021-01-20 13:21:30,201 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DebooApplication using Java 1.8.0_241 on gwonseunghun-ui-MacBookPro.local with PID 14988 (/Users/gwonseunghun/Documents/dev/springBoot/deboo/out/production/classes started by gwonseunghun in /Users/gwonseunghun/Documents/dev/springBoot/deboo)
+2021-01-20 13:21:30,203 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: test
+2021-01-20 13:21:30,403 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-20 13:21:30,404 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-20 13:21:35,538 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-20 13:21:35,760 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 165 ms. Found 1 JPA repository interfaces.
+2021-01-20 13:21:36,933 INFO com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [restartedMain] Post-processing PropertySource instances
+2021-01-20 13:21:37,042 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-01-20 13:21:37,044 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-01-20 13:21:37,045 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-01-20 13:21:37,046 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-01-20 13:21:37,047 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2021-01-20 13:21:37,049 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-01-20 13:21:37,050 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-01-20 13:21:37,051 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-01-20 13:21:37,115 INFO com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter [restartedMain] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-01-20 13:21:37,417 INFO com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [restartedMain] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-01-20 13:21:37,419 INFO com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [restartedMain] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-01-20 13:21:38,105 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3000 (http)
+2021-01-20 13:21:38,122 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3000"]
+2021-01-20 13:21:38,123 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-01-20 13:21:38,123 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-20 13:21:38,304 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-01-20 13:21:38,305 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 7898 ms
+2021-01-20 13:21:38,663 INFO com.ulisesbocchio.jasyptspringboot.encryptor.DefaultLazyEncryptor [restartedMain] Found Custom Encryptor Bean org.jasypt.encryption.pbe.StandardPBEStringEncryptor@a543538 with name: jasyptStringEncryptor
+2021-01-20 13:21:39,010 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-20 13:21:39,077 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-20 13:21:39,294 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-20 13:21:39,426 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2021-01-20 13:21:39,672 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection opened
+2021-01-20 13:21:39,673 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.new Connection returned 
+2021-01-20 13:21:39,674 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getNetworkTimeout() returned 0
+2021-01-20 13:21:39,676 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,676 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getAutoCommit() returned true
+2021-01-20 13:21:39,676 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.isValid(1) returned true
+2021-01-20 13:21:39,677 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getTransactionIsolation() returned 4
+2021-01-20 13:21:39,682 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2021-01-20 13:21:39,685 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@16411b6a
+2021-01-20 13:21:39,697 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-01-20 13:21:39,724 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getCatalog() returned LocalDB
+2021-01-20 13:21:39,745 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getSchema() returned null
+2021-01-20 13:21:39,746 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getSchema() returned null
+2021-01-20 13:21:39,763 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@8a37a92
+2021-01-20 13:21:39,764 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.createClob() returned com.mysql.jdbc.Clob@785ded38
+2021-01-20 13:21:39,771 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.clearWarnings() returned 
+2021-01-20 13:21:39,795 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 2. Connection opened
+2021-01-20 13:21:39,796 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 2. Connection.new Connection returned 
+2021-01-20 13:21:39,796 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 2. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,796 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 2. Connection.getAutoCommit() returned true
+2021-01-20 13:21:39,801 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 3. Connection opened
+2021-01-20 13:21:39,802 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 3. Connection.new Connection returned 
+2021-01-20 13:21:39,803 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 3. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,803 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 3. Connection.getAutoCommit() returned true
+2021-01-20 13:21:39,830 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 4. Connection opened
+2021-01-20 13:21:39,831 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 4. Connection.new Connection returned 
+2021-01-20 13:21:39,831 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 4. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,832 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 4. Connection.getAutoCommit() returned true
+2021-01-20 13:21:39,837 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 5. Connection opened
+2021-01-20 13:21:39,837 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 5. Connection.new Connection returned 
+2021-01-20 13:21:39,841 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 5. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,842 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 5. Connection.getAutoCommit() returned true
+2021-01-20 13:21:39,852 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 6. Connection opened
+2021-01-20 13:21:39,852 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 6. Connection.new Connection returned 
+2021-01-20 13:21:39,853 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 6. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,853 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 6. Connection.getAutoCommit() returned true
+2021-01-20 13:21:39,862 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 7. Connection opened
+2021-01-20 13:21:39,863 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 7. Connection.new Connection returned 
+2021-01-20 13:21:39,864 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 7. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,864 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 7. Connection.getAutoCommit() returned true
+2021-01-20 13:21:39,869 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 8. Connection opened
+2021-01-20 13:21:39,870 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 8. Connection.new Connection returned 
+2021-01-20 13:21:39,871 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 8. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,871 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 8. Connection.getAutoCommit() returned true
+2021-01-20 13:21:39,909 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 9. Connection opened
+2021-01-20 13:21:39,910 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 9. Connection.new Connection returned 
+2021-01-20 13:21:39,911 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 9. Connection.isReadOnly() returned false
+2021-01-20 13:21:39,912 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 9. Connection.getAutoCommit() returned true
+2021-01-20 13:21:40,001 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 10. Connection opened
+2021-01-20 13:21:40,001 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 10. Connection.new Connection returned 
+2021-01-20 13:21:40,002 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 10. Connection.isReadOnly() returned false
+2021-01-20 13:21:40,003 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection adder] 10. Connection.getAutoCommit() returned true
+2021-01-20 13:21:40,745 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.isValid(5) returned true
+2021-01-20 13:21:40,746 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getAutoCommit() returned true
+2021-01-20 13:21:40,746 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@54bfc8e3
+2021-01-20 13:21:40,772 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [restartedMain] 1. Connection.clearWarnings() returned 
+2021-01-20 13:21:40,772 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-20 13:21:40,784 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-20 13:21:40,832 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-01-20 13:21:42,063 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-01-20 13:21:42,422 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/v2/api-docs'] with []
+2021-01-20 13:21:42,426 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/swagger-resourcees/**'] with []
+2021-01-20 13:21:42,427 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/swagger-ui.html'] with []
+2021-01-20 13:21:42,427 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/webjars/**'] with []
+2021-01-20 13:21:42,427 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/swagger/**'] with []
+2021-01-20 13:21:42,428 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/user/login', GET] with []
+2021-01-20 13:21:42,428 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/actuator/health', GET] with []
+2021-01-20 13:21:42,429 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/profile', GET] with []
+2021-01-20 13:21:42,429 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure Ant [pattern='/user/', POST] with []
+2021-01-20 13:21:42,492 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@238ba1df, org.springframework.security.web.context.SecurityContextPersistenceFilter@4dc81e75, org.springframework.security.web.header.HeaderWriterFilter@4c696428, org.springframework.security.web.authentication.logout.LogoutFilter@5b66156c, com.restapi.deboo.security.JwtAuthenticationFilter@36dc33d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@73ddba2a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@748bc8c4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5749242c, org.springframework.security.web.session.SessionManagementFilter@6bc2188f, org.springframework.security.web.access.ExceptionTranslationFilter@a1a53a1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@279706ba]
+2021-01-20 13:21:42,560 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [restartedMain] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-01-20 13:21:42,769 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-20 13:21:43,089 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-3000"]
+2021-01-20 13:21:43,121 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 3000 (http) with context path ''
+2021-01-20 13:21:43,122 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Context refreshed
+2021-01-20 13:21:43,138 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [restartedMain] Found 1 custom documentation plugin(s)
+2021-01-20 13:21:43,172 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [restartedMain] Scanning for api listing references
+2021-01-20 13:21:43,358 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [restartedMain] Generating unique operation named: findByIdUsingGET_1
+2021-01-20 13:21:43,391 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DebooApplication in 14.197 seconds (JVM running for 16.063)
+2021-01-20 13:21:43,650 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [RMI TCP Connection(1)-127.0.0.1] 1. Connection.isValid(5) returned true
+2021-01-20 13:21:43,653 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [RMI TCP Connection(1)-127.0.0.1] 1. Connection.getMetaData() returned com.mysql.jdbc.JDBC4DatabaseMetaData@1925c203
+2021-01-20 13:21:43,654 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(2)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-20 13:21:43,654 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2021-01-20 13:21:43,654 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [RMI TCP Connection(1)-127.0.0.1] 1. Connection.clearWarnings() returned 
+2021-01-20 13:21:43,655 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [RMI TCP Connection(1)-127.0.0.1] 1. Connection.isValid(0) returned true
+2021-01-20 13:21:43,656 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [RMI TCP Connection(1)-127.0.0.1] 1. Connection.clearWarnings() returned 
+2021-01-20 13:21:43,657 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(2)-127.0.0.1] Completed initialization in 3 ms
+2021-01-20 13:23:02,092 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-20 13:23:02,098 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringContextShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-20 13:23:02,115 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-01-20 13:23:02,123 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 1. Connection closed
+2021-01-20 13:23:02,123 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 1. Connection.close() returned 
+2021-01-20 13:23:02,124 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 2. Connection closed
+2021-01-20 13:23:02,124 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 2. Connection.close() returned 
+2021-01-20 13:23:02,125 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 3. Connection closed
+2021-01-20 13:23:02,125 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 3. Connection.close() returned 
+2021-01-20 13:23:02,125 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 4. Connection closed
+2021-01-20 13:23:02,126 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 4. Connection.close() returned 
+2021-01-20 13:23:02,126 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 5. Connection closed
+2021-01-20 13:23:02,127 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 5. Connection.close() returned 
+2021-01-20 13:23:02,127 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 6. Connection closed
+2021-01-20 13:23:02,127 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 6. Connection.close() returned 
+2021-01-20 13:23:02,128 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 7. Connection closed
+2021-01-20 13:23:02,128 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 7. Connection.close() returned 
+2021-01-20 13:23:02,128 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 8. Connection closed
+2021-01-20 13:23:02,128 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 8. Connection.close() returned 
+2021-01-20 13:23:02,129 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 9. Connection closed
+2021-01-20 13:23:02,129 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 9. Connection.close() returned 
+2021-01-20 13:23:02,131 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 10. Connection closed
+2021-01-20 13:23:02,131 INFO net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator [HikariPool-1 connection closer] 10. Connection.close() returned 
+2021-01-20 13:23:02,132 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.

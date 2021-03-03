@@ -1,0 +1,186 @@
+2021-01-28 16:45:52,548 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.1.5.Final
+2021-01-28 16:45:52,876 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DebooApplication using Java 1.8.0_241 on gwonseunghun-ui-MacBookPro.local with PID 75515 (/Users/gwonseunghun/Documents/dev/springBoot/deboo/out/production/classes started by gwonseunghun in /Users/gwonseunghun/Documents/dev/springBoot/deboo)
+2021-01-28 16:45:52,879 INFO org.springframework.boot.SpringApplication [restartedMain] The following profiles are active: product1
+2021-01-28 16:45:53,393 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/google-oauth-client-jetty-1.11.0-beta.jar referenced one or more files that do not exist: file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/google-oauth-client-java6-1.11.0-beta.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/google-oauth-client-1.11.0-beta.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/google-http-client-1.11.0-beta.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/httpclient-4.0.3.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/httpcore-4.0.1.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/commons-logging-1.1.1.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/xpp3-1.1.4c.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/jsr305-1.3.9.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/guava-11.0.1.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/jetty-6.1.26.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/jetty-util-6.1.26.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-jetty/1.11.0-beta/7264fbc551ad8219b014feb662b1f1d187c2e7b7/servlet-api-2.5-20081211.jar
+2021-01-28 16:45:53,396 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in /Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/google-oauth-client-java6-1.11.0-beta.jar referenced one or more files that do not exist: file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/google-oauth-client-1.11.0-beta.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/google-http-client-1.11.0-beta.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/httpclient-4.0.3.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/httpcore-4.0.1.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/commons-logging-1.1.1.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/xpp3-1.1.4c.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/jsr305-1.3.9.jar,file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client-java6/1.11.0-beta/c07d4fd295d5ddf9e92c23c88f854fb733770d4a/guava-11.0.1.jar
+2021-01-28 16:45:53,397 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-28 16:45:53,398 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-28 16:45:57,429 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-28 16:45:57,560 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 111 ms. Found 1 JPA repository interfaces.
+2021-01-28 16:45:58,017 INFO com.ulisesbocchio.jasyptspringboot.configuration.EnableEncryptablePropertiesBeanFactoryPostProcessor [restartedMain] Post-processing PropertySource instances
+2021-01-28 16:45:58,129 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2021-01-28 16:45:58,150 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-01-28 16:45:58,151 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2021-01-28 16:45:58,152 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2021-01-28 16:45:58,153 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2021-01-28 16:45:58,153 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2021-01-28 16:45:58,153 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-01-28 16:45:58,154 INFO com.ulisesbocchio.jasyptspringboot.EncryptablePropertySourceConverter [restartedMain] Converting PropertySource devtools [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2021-01-28 16:45:58,216 INFO com.ulisesbocchio.jasyptspringboot.filter.DefaultLazyPropertyFilter [restartedMain] Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2021-01-28 16:45:58,609 INFO com.ulisesbocchio.jasyptspringboot.resolver.DefaultLazyPropertyResolver [restartedMain] Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2021-01-28 16:45:58,611 INFO com.ulisesbocchio.jasyptspringboot.detector.DefaultLazyPropertyDetector [restartedMain] Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2021-01-28 16:45:59,329 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 3000 (http)
+2021-01-28 16:45:59,349 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-3000"]
+2021-01-28 16:45:59,350 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-01-28 16:45:59,351 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-28 16:45:59,501 ERROR org.apache.juli.logging.DirectJDKLog [restartedMain] A child container failed during start
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:451)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:200)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.restapi.deboo.DebooApplication.main(DebooApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.StandardPipeline.startInternal(StandardPipeline.java:176)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5094)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	... 35 common frames omitted
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getVirtualServerName()Ljava/lang/String;
+	at org.apache.catalina.authenticator.AuthenticatorBase.startInternal(AuthenticatorBase.java:1355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 45 common frames omitted
+2021-01-28 16:45:59,502 ERROR org.apache.juli.logging.DirectJDKLog [restartedMain] A child container failed during start
+java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:451)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:200)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:181)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:159)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:582)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:767)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:426)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:326)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at com.restapi.deboo.DebooApplication.main(DebooApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: A child container failed during start
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:928)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:843)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	... 27 common frames omitted
+Caused by: java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+	... 35 common frames omitted
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [NonLoginAuthenticator[StandardEngine[Tomcat].StandardHost[localhost].TomcatEmbeddedContext[]]]
+	at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+	at org.apache.catalina.core.StandardPipeline.startInternal(StandardPipeline.java:176)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5094)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1384)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1374)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:909)
+	... 35 common frames omitted
+Caused by: java.lang.NoSuchMethodError: javax.servlet.ServletContext.getVirtualServerName()Ljava/lang/String;
+	at org.apache.catalina.authenticator.AuthenticatorBase.startInternal(AuthenticatorBase.java:1355)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	... 45 common frames omitted
+2021-01-28 16:45:59,503 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Pausing ProtocolHandler ["http-nio-3000"]
+2021-01-28 16:45:59,505 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Stopping service [Tomcat]
+2021-01-28 16:45:59,506 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Destroying ProtocolHandler ["http-nio-3000"]
+2021-01-28 16:45:59,538 WARN org.springframework.context.support.AbstractApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.boot.web.server.WebServerException: Unable to start embedded Tomcat
+2021-01-28 16:45:59,626 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [restartedMain] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-01-28 16:45:59,685 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    org.apache.catalina.authenticator.AuthenticatorBase.startInternal(AuthenticatorBase.java:1355)
+
+The following method did not exist:
+
+    javax.servlet.ServletContext.getVirtualServerName()Ljava/lang/String;
+
+The method's class, javax.servlet.ServletContext, is available from the following locations:
+
+    jar:file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/servlet-api/2.5-20081211/22bff70037e1e6fa7e6413149489552ee2064702/servlet-api-2.5-20081211.jar!/javax/servlet/ServletContext.class
+    jar:file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/9.0.41/a43e9711e85073187d04b137882b4b7957180ef0/tomcat-embed-core-9.0.41.jar!/javax/servlet/ServletContext.class
+
+The class hierarchy was loaded from the following locations:
+
+    javax.servlet.ServletContext: file:/Users/gwonseunghun/.gradle/caches/modules-2/files-2.1/org.mortbay.jetty/servlet-api/2.5-20081211/22bff70037e1e6fa7e6413149489552ee2064702/servlet-api-2.5-20081211.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of javax.servlet.ServletContext
+
